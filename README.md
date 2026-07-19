@@ -4,8 +4,8 @@ Projet realisee
 #Architecture
 VM_1 : Reverse Proxy + Load Balancer
     * Nginx
-    * SSL/TLS(Let's Encrypt)
-    * Monitoring Agent
+    * SSL (protocole de sécurité fondamental qui chiffre les données    échangées entre un navigateur web et un serveur) /TLS(Let's Encrypt)
+    * Monitoring Agent (logiciel installé sur un serveur. Il collecte en  temps réel des données : Ram, CPU, etat )
 
 VM_2 : Application Server
     * Docker
